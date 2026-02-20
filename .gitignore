@@ -1,0 +1,40 @@
+.env
+.env.local
+appsettings.*.json
+!appsettings.Development.json
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.user
+*.suo
+
+# Build
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Packages
+packages/
+.nuget/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dependencies
+node_modules/
+dist/
+
+# Coverage
+coverage/
+.nyc_output/
+
